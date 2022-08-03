@@ -9,18 +9,23 @@
         <li>VUEJS</li>
     </ul>
     <p v-show="mostrarEmail">mande uma mensagem para: {{ email }}</p>
+    <p>basta clicar aqui <a v-bind:href="meuLink" target="_blank">basta clicar</a></p>
+    <PictureComponente></PictureComponente>
     </div>
 </template>
 
 <script>
+import PictureComponente from './form/pictureComponente.vue'
 export default {
   name: 'InfoPessoa',
   data () {
     return {
       estaTrabalhando: false,
       mostrarEmail: true,
-      email: 'ola@gmail.com'
+      email: 'ola@gmail.com',
+      meuLink: 'https://google.com'
     }
-  }
+  },
+  components: { PictureComponente }
 }
 </script>
