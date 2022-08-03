@@ -1,7 +1,7 @@
 <template>
 <div>
-     <h1>ola vue</h1>
-    <p>{{ nome }} trabalho com {{ profi }}</p>
+     <h1></h1>
+    <p></p>
 </div>
 </template>
 

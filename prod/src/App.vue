@@ -3,6 +3,7 @@
   <PrimeiroComponente/>
   <LifeCycle></LifeCycle>
   <PessoaComponente></PessoaComponente>
+  <p>formulario usando hierarquia de componentes</p>
 </div>
 
 </template>

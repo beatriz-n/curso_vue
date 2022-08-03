@@ -1,18 +1,20 @@
 <template>
 <div>
-    <h2>esta é a descrição da pessoa: {{ nome }}</h2>
+    <h2></h2>
     <InfoPessoa></InfoPessoa>
+    <FormComponente></FormComponente>
 </div>
 </template>
 
 <script>
 import InfoPessoa from './InfoPessoa.vue'
+import FormComponente from './FormComponente.vue'
 export default {
   data () {
     return {
       name: 'beatriz'
     }
   },
-  components: { InfoPessoa }
+  components: { InfoPessoa, FormComponente }
 }
 </script>
