@@ -14,11 +14,17 @@ export default {
     setTimeout(() => {
       this.nome = 'Vegeta'
     }, 1000)
+    this.lifeCycle()
   },
   mounted () {
     setTimeout(() => {
       this.nome = 'Frezza'
     }, 2000)
+  },
+  methods: {
+    lifeCycle () {
+      console.log('executou')
+    }
   }
 }
 // eventos acontecendo em determinadas etapas
