@@ -1,7 +1,7 @@
 <template>
 <div>
     <h2></h2>
-    <InfoPessoa></InfoPessoa>
+    <InfoPessoa :email="email"/>
     <FormComponente></FormComponente>
 </div>
 </template>
@@ -12,7 +12,8 @@ import FormComponente from './FormComponente.vue'
 export default {
   data () {
     return {
-      name: 'beatriz'
+      name: 'beatriz',
+      email: 'assdasd@asdsd.com'
     }
   },
   components: { InfoPessoa, FormComponente }

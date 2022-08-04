@@ -19,11 +19,13 @@
 export default {
   name: 'InfoPessoa',
   components: {},
+  props: {
+    email: String
+  },
   data () {
     return {
       estaTrabalhando: false,
       mostrarEmail: true,
-      email: 'ola@gmail.com',
       meuLink: 'https://google.com',
       textoBotao: 'Mostrar email',
       tecnologias: ['javascript', 'PHP', 'VUEJS']
